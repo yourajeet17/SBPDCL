@@ -45,7 +45,8 @@ $reason_to_hire = $conn->real_escape_string($_REQUEST['reason_to_hire']);
 			
 			}else {
 				$em = "You must Enter correct Data format";
-		        header("Location: index.php?error=$em");
+		        header("Location: index.php?error=$em"); 
+				// #wea are going to do nothing
 			}
 	
 	    }
